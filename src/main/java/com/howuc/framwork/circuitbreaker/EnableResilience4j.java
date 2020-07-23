@@ -1,4 +1,4 @@
-package cn.ocoop.framwork;
+package com.howuc.framwork.circuitbreaker;
 
 import org.springframework.cloud.openfeign.Resilience4jConfiguration;
 import org.springframework.context.annotation.Import;

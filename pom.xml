@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.ocoop.framework</groupId>
+    <groupId>com.howuc.framework</groupId>
     <artifactId>spring-cloud-resilience4j-over-openfeign</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 
     <name>spring-cloud-resilience4j-over-openfeign</name>
     <description>a convenient way to combine resilience4j with spring cloud openfeign.</description>
@@ -106,9 +106,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
-        <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
-        <resilience4j.version>1.1.0</resilience4j.version>
+        <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
+        <spring-cloud.version>Hoxton.SR6</spring-cloud.version>
+        <resilience4j.version>1.5.0</resilience4j.version>
     </properties>
 
     <dependencies>
